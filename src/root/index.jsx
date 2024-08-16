@@ -1,5 +1,7 @@
 import { Container } from "./styled";
 
-export const Root = () => {
+const Root = () => {
   return <Container>Root</Container>;
 };
+
+export default Root;
