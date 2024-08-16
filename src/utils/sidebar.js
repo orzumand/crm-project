@@ -8,6 +8,22 @@ export const sidebar = [
     element: Generic,
     isPrived: true,
     role: ["admin"],
-    children: [{ id: "1-1", title: "children-1" }],
+  },
+  {
+    id: 2,
+    title: "Talabalar",
+    path: "/students",
+    icon: "",
+    element: Generic,
+    isPrived: true,
+    role: ["admin"],
+    children: [
+      {
+        id: "2-1",
+        title: "children-1",
+        path: "/students/table",
+        element: Generic,
+      },
+    ],
   },
 ];
